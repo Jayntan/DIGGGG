@@ -7,18 +7,18 @@
 }
 .navbar-brand:hover{
     font-weight:bold;
+    padding: 5px;
   
 }
 .navbar-nav .nav-item:hover{
     font-weight: bold;
     background-color: rgb(18, 114, 18);
     border-radius: 5px;
-    font-style: italic;
+    padding: 0px 5px;
     transition: 0.4s;
 }
 .banner-container{
     background-image: url(../img/imageOpnWlppr.png);
-    
     height:450px;
     width:100%;
     background-attachment:fixed;
@@ -39,26 +39,28 @@ h3{
 
 }
 .body-theme{
-    display: flex;
-    height: 425px;
+   display: flex;
     width: 100%;
     background-color: rgba(72, 240, 122, 0.849);
     padding: 10px;
 }
+@media (max-width:767px){
+    .body-theme{
+        display: block;
+        height: auto;
+    }
+}
 .body-theme-one{
-   margin-top: 120px;
-    padding-left: 90px;
+    text-align: center;
+    align-self: center;
     color: white;
-    font-family: 'Lucida Sans';
-    font-weight: bold;
-    
+    padding: 5px;
+   
 }
 @media (max-width: 768px) {
     .body-theme-one{
-        margin-top: 60px;
-         padding-left: 20px;}
-         .body-theme-one > .mh{
-            font-size: 20px;}       
+       } 
+       
          
 }
 .carousel{
@@ -131,13 +133,20 @@ h3{
     display: flex;
     width: 100%;
     text-align: center;
-   justify-content: space-around;
-   padding: 10px;
+    justify-content: space-around;
+ 
+}
+@media (max-width:768px){
+    .information_cards{
+        display: block;
+        margin: 5px 5px 5x 50px;
+    }
 }
 .information_cards .card :hover{
      cursor: pointer;
      box-shadow: 10px;
-     padding: 5px;
+     column-fill: red;
+     transition: 0.5s;
 }
 .footer{
     background-color: rgba(0, 0, 0, 0.897);
@@ -166,4 +175,29 @@ h3{
 .footer-city a{
     color: white;
     text-decoration: none;
+}
+.responsive_div{
+    display: flex;
+    width: 100%;
+
+}
+@media(max-width:767px){
+    .responsive_div{
+        display: block;
+        align-content: center;
+        height: auto;
+    }
+
+}
+.col-md-6{
+    padding: 2px;
+}
+.col-md-3{
+    padding: 2px;
+}
+.footer_vl{
+    height: 24px;
+    width: 2px;
+    background-color: white;
+    margin: 0px 2px;
 }
