@@ -44,7 +44,7 @@ h3{
     background-color: rgba(72, 240, 122, 0.849);
     padding: 10px;
 }
-@media (max-width:767px){
+@media (max-width:768px){
     .body-theme{
         display: block;
         height: auto;
@@ -145,7 +145,7 @@ h3{
 .information_cards .card :hover{
      cursor: pointer;
      box-shadow: 10px;
-     column-fill: red;
+   
      transition: 0.5s;
 }
 .footer{
