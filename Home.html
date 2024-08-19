@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Website</title>
+    <title>dIggIn</title>
+
+    <link rel="icon" type="image/x-icon" href="img/logo.png" >
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/home.css">
@@ -14,11 +16,14 @@
 </head>
 <body>
    <div class="header sticky-top">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm" 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-lg" 
         style="background-color:  rgba(31, 146, 66, 0.849) ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="color:rgb(229, 255, 0); 
-                   margin-left: 10px; font-size: 28px;"><b>dIggIn</b></a>
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="Logo" width="50" height="50" 
+                 class="d-inline-block align-text-middle" style="margin-left: 15px;">
+                 <span style="color: yellow; font-size: 26px;"><b>diggin</b></span>
+          </a>
           <button class="navbar-toggler" type="button" 
                   data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
                   aria-controls="navbarSupportedContent" aria-expanded="false" 
@@ -115,21 +120,20 @@
       </nav>
 
    </div>
-
    <div class="banner-container" >
-    <h1 class="white pb-2" style="text-shadow: 10px black;">"Curiosity meets discovery -
-           <span style="color:rgb(229, 255, 0)"><b>dIggIn</b></span>" <br>
+    <h1 class="white pb-2" style="text-shadow: 10px black;">"Curiosity meets discovery"-
+           <span style="color:rgb(229, 255, 0)"><b>diggin</b></span><br>
           <span style="font-size: 18px; margin-left: 16px;">is where every click uncovers a hidden gem.</span></h1>
           
    </div>
 
   <div class="body-theme">
-    <div class="body-theme-one col-5">
-       <p class="mh" style="font-size: 24px; font-family: Lucida Sans;"><b>Here you can Explore !!</b></p>
-       <p class="mh2" style="font-size: 16px; ">More Images from<br>Yesterday's Event </p>
+    <div class="body-theme-one col-md-5">
+       <h2 style="font-size: 26px; font-family: Geneva;"><b>Here you can Explore !!</b></h2>
+       <p  style="font-size: 16px; ">More Images from Yesterday's Event </p>
        <button type="submit" class="btn btn-success"><b>Explore!!</b></button>  
     </div>
-    <div class="body-theme-two col-7">
+    <div class="body-theme-two col-md-7">
         <div id="carouselExampleCaptions" class="carousel slide">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -138,21 +142,21 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/image (23).png" class="d-block w-100" style="height: 400px;" alt="...">
+                <a href="First_slide.html"> <img src="img/image (23).png" class="d-block w-100 img-fluid" alt="..."></a>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>First slide label</h5>
                   <p>Some representative placeholder content for the first slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="img/image (24).png" class="d-block w-100" style="height: 400px;"alt="...">
+                <a href="second_slide.html"> <img src="img/image (24).png" class="d-block w-100 img-fluid"alt="..."></a>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Second slide label</h5>
                   <p>Some representative placeholder content for the second slide.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="img/image (26).png" class="d-block w-100" style="height: 400px;"alt="...">
+                <a href="third_slide.html"> <img src="img/image (26).png" class="d-block w-100 img-fluid" alt="..."></a>
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Third slide label</h5>
                   <p>Some representative placeholder content for the third slide.</p>
@@ -171,35 +175,22 @@
     </div>
   </div>
 
+  <hr>
+
 <div class="card">
   <img src="img/image (19).png" class="card-img-top" alt="...">
 
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" class="btn btn-success">Go somewhere</a>
   </div>
 </div>
 
-<div class="card" aria-hidden="true">
-  <img src="img/image 18.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title placeholder-glow">
-      <span class="placeholder col-6"></span>
-    </h5>
-    <p class="card-text placeholder-glow">
-      <span class="placeholder col-7"></span>
-      <span class="placeholder col-4"></span>
-      <span class="placeholder col-4"></span>
-      <span class="placeholder col-6"></span>
-      <span class="placeholder col-8"></span>
-    </p>
-    <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
-  </div>
-</div>
 
-<div class="information_cards">
-  <div class="card" style="width: 18rem;">
+
+<div class="information_cards w-100">
+  <div class="card col-sm-3" style="width: 18rem;">
     <img src="img/image (21).png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
@@ -208,7 +199,7 @@
     </div>
   </div>
   
-  <div class="card" style="width: 18rem;">
+  <div class="card col-sm-3" style="width: 18rem;">
     <img src="img/image (27).png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
@@ -216,7 +207,7 @@
       <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
   </div>
-   <div class="card" style="width: 18rem;">
+   <div class="card col-sm-3" style="width: 18rem;">
     <img src="img/image (28).png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
@@ -226,8 +217,29 @@
   </div>
  
 </div>
-
-
+<hr>
+<div class="responsive_div">
+  <div class="col-md-3">
+    <img src="img/lambgni.jpg" class="img-fluid">
+    <hr>
+    <h5 style="font-family: sans-serif; margin-left:5px"><b>This is the world's fastest car</b></h4>
+      <p style=" margin-left: 5px;"> This is the world's fastest This is the world's fastest 
+          This is the world's fastest This is the world's fastest 
+          This is the world's fastest This is the world's fastest 
+          This is the world's fastest This is the world's fastest </p>
+  </div>
+  
+  <div class="col-md-6">
+     <img src="img/porsche.jpg" class="img-fluid">
+     <hr>
+     <img src="img/porsche.jpg" class="img-fluid">
+  </div>
+  <div class="col-md-3">
+     <img src="img/chiruta.jpg" class="img-fluid">
+  </div>
+  <hr>
+</div>
+<div><hr></div>
 
 <div class="testimonials">
   <b style="font-size: 30px; line-height: 250px; color: white;">What People Say</b>
@@ -256,16 +268,13 @@
 
 
 
-
-
-
 <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="signup-heading" aria-hidden="true">
   <div class="modal-dialog" role="document">
       <div class="modal-content">
           <div class="modal-header">
-              <h5 class="modal-title" id="signup-heading">Register with WishToGod</h5>
+              <h5 class="modal-title" id="signup-heading">Register with diggin</h5>
               <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true"> &times;</span>
+                  <span aria-hidden="true">&times;</span>
               </button>
           </div>
 
@@ -346,7 +355,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
           <div class="modal-header">
-              <h5 class="modal-title" id="login-heading">GetIn with WishToGod</h5>
+              <h5 class="modal-title" id="login-heading">GetIn with diggin</h5>
               <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
               </button>
@@ -390,24 +399,45 @@
 
 
 
-<marquee direction="left"  scrollamount="6" style="background-color:rgb(255, 68, 0);">
-  <font size="5" face="Lucida" color="white"><b>!!!  please, dont forget to share to your friends  !!!</b></font>
+<marquee direction="left"  scrollamount="4" style="background-color:rgb(255, 68, 0);">
+  <font size="4" face="Lucida" color="white"><b>!!!  please, dont forget to share to your friends  !!!</b></font>
  </marquee>
 
  <div class="footer">
   <div class="page-container footer-container">
       <div class="footer-cities">
+
           <div class="footer-city">
               <a href="property_list.html">Deep dives</a>
           </div>
+
+          <div class="footer_vl"></div>
+
           <div class="footer-city">
               <a href="property_list.html">Hidden gems</a>
           </div>
+
+          <div class="footer_vl"></div>
+
           <div class="footer-city">
               <a href="property_list.html">Mystery vault</a>
           </div>
+
+          <div class="footer_vl"></div>
+
           <div class="footer-city">
               <a href="property_list.html">Today's finds</a>
+          </div>
+
+           <div class="footer_vl"></div>
+
+          <div class="footer-city">
+              <a href="property_list.html">About Us</a>
+          </div>
+          <div class="footer_vl"></div>
+
+          <div class="footer-city">
+              <a href="property_list.html">Contact Us</a>
           </div>
       </div>
       <div class="footer-copyright">© 2024 Copyright
