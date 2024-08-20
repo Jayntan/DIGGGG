@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.first_article_container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+}
+@media(max-width : 767px){
+    .first_article_container{
+        display: block;
+    }
+    .add_section{
+        margin: 5px 0px;
+        max-height: 100px;
+    }
+
+}
+.artical_content{
+    display: flex;
+    border: solid 2px bisque;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+
+}
+.list-group-item{
+    background-color: bisque;
+}
+.add_section{
+   
+    height: 200px;
+    background-color: rgb(98, 96, 199);
+    border: 2px green solid;
+    padding: 5px;
+}
