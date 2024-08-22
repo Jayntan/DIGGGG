@@ -19,17 +19,9 @@
     }
 
 }
-.artical_content{
-    display: flex;
-    border: solid 2px bisque;
-    border-radius: 5px;
-    position: relative;
-    text-align: center;
-    align-items: center;
+.article_container{
+   background-color: rgb(251, 247, 255)
 
-}
-.list-group-item{
-    background-color: bisque;
 }
 .add_section{
    
@@ -37,47 +29,6 @@
     background-color: rgb(98, 96, 199);
     border: 2px green solid;
     padding: 5px;
-}
-
-
-.container-flu{
-    padding-top: 20px;
-    padding-left: 6px;
-    padding-right: 5px;
-    background-color: rgb(238, 220, 255);
-    text-align: center;
-    position: relative;
-    left: -3px;
-    align-self: center;
-    border-radius: 10px;
-    border: 2px solid rgb(210, 162, 255);
-    height: 250px; 
-    overflow: hidden;
-    overflow-y: scroll;
-
-
-}
-.body{
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: 270px;
-   background-color: rgb(246, 236, 255);
-    
-}
-.list-grou {
-  align-self: center;
-  position: relative;
-  right: -4px;
-   
-}
-#list-it-id{
-    background-color: rgb(210, 162, 255);
-    font-weight: bold;
-    color: rgb(67, 14, 116);
-    font-family: 'Lucida Sans';
-   text-align: center;
-   border-radius: 5px;  
 }
 
 .horizon_cards{
@@ -94,12 +45,76 @@
 }
 .heading_and_like{
     display: flex;
-    background-color:  rgb(246, 236, 255) ;
+    background-color:rgb(242, 228, 255);
     padding-top: 15px;
     align-items: center;
+}
+.headng_nd_lk_vl{
+    height: 42px;
+    border: 2px solid rgb(214, 172, 255);;
+    width: 3px;
+    justify-content: center;
+    align-self: center;
+    margin-left: 15px;
+    margin-bottom: 8px;
+
 }
 .like-link{
     align-items: center;
     align-self: center;
     text-align: center;
 }
+.content_container{
+    align-self: center;
+    background-color:rgb(242, 228, 255);
+   
+}
+
+.content{
+    height: 200px; /* Set the height to make the div scrollable */
+    overflow-y: auto; /* Enable vertical scrolling */
+    position: relative; /* Required for ScrollSpy */
+    border: 3px solid rgb(230, 203, 255); /* Optional: Add a border for better visibility */
+    padding: 20px;
+    left: -2px;
+    z-index: 1;
+    border-radius: 10px;
+    background-color:  rgb(245, 235, 255);
+    align-self: center;
+  }
+
+  .container{
+    background-color:rgb(242, 228, 255);
+   
+   
+  }
+ 
+ .list_content_container{
+    display: flex;
+    background-color:rgb(251, 247, 255);
+ }
+ .list_container{
+    align-self: center;
+ }
+ .list-group{
+    position: sticky;
+    top: 0;
+    align-self: center;
+    align-content: center;
+    z-index: 1;
+   
+ }
+ .list-group-item{
+    background-color: rgb(230, 203, 255);
+    color:  rgb(133, 3, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+    font-family: Lucida Sans;
+    border: 1px solid  rgb(194, 128, 255);
+ }
+ .list-group-item.active{
+    background-color: rgb(133, 3, 255);
+    border: 1px solid  rgb(133, 3, 255);
+ }
+
