@@ -67,7 +67,7 @@
 .content_container{
     align-self: center;
     background-color:rgb(242, 228, 255);
-   border: 2px solid rgb(133, 3, 255); 
+  
 }
 
 .content{
@@ -91,7 +91,7 @@
  
  .list_content_container{
     display: flex;
-    background-color:rgb(251, 247, 255);
+    background-color:rgb(242, 228, 255);
  }
  .list_container{
     align-self: center;
