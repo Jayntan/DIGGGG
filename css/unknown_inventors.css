@@ -71,14 +71,14 @@
 }
 
 .content{
-    height: 200px; /* Set the height to make the div scrollable */
+    height: 230px; /* Set the height to make the div scrollable */
     overflow-y: auto; /* Enable vertical scrolling */
     position: relative; /* Required for ScrollSpy */
     border: 3px solid rgb(230, 203, 255); /* Optional: Add a border for better visibility */
-    padding: 20px;
+    padding: 10px;
     left: -2px;
     z-index: 1;
-    border-radius: 10px;
+    border-radius: 7px;
     background-color:  rgb(245, 235, 255);
     align-self: center;
   }
