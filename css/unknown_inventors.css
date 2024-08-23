@@ -67,11 +67,11 @@
 .content_container{
     align-self: center;
     background-color:rgb(242, 228, 255);
-   
+   border: 2px solid rgb(133, 3, 255); 
 }
 
 .content{
-    height: 230px; /* Set the height to make the div scrollable */
+    height: 250px; /* Set the height to make the div scrollable */
     overflow-y: auto; /* Enable vertical scrolling */
     position: relative; /* Required for ScrollSpy */
     border: 2px solid rgb(133, 3, 255); /* Optional: Add a border for better visibility */
