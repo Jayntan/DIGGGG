@@ -75,7 +75,7 @@
     overflow-y: auto; /* Enable vertical scrolling */
     position: relative; /* Required for ScrollSpy */
     border: 2px solid rgb(133, 3, 255); /* Optional: Add a border for better visibility */
-    padding: 0px;
+    padding: 7px;
     left: -2px;
     z-index: 1;
     border-radius: 7px;
